@@ -240,7 +240,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.79990846, y: 0.49998477}
+  m_AnchoredPosition: {x: 2.7, y: -0.4}
   m_SizeDelta: {x: 12, y: 12}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &379927492
@@ -331,7 +331,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1547688855, guid: 262b9a5cdae26af4b8a17f995ce3a21e, type: 3}
+  m_Sprite: {fileID: -546666400, guid: 740a2808d36470f4f9641e75a1f36217, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -548,8 +548,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5626ae0142cd063489b630abf6858f4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onMusic: {fileID: -1207808025, guid: 262b9a5cdae26af4b8a17f995ce3a21e, type: 3}
-  offMusic: {fileID: -638893194, guid: 262b9a5cdae26af4b8a17f995ce3a21e, type: 3}
+  onMusic: {fileID: 1426843329, guid: 740a2808d36470f4f9641e75a1f36217, type: 3}
+  offMusic: {fileID: 568761114, guid: 740a2808d36470f4f9641e75a1f36217, type: 3}
   MusicButton: {fileID: 1295640833}
   isOn: 1
   ad: {fileID: 875004492}
@@ -810,7 +810,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1207808025, guid: 262b9a5cdae26af4b8a17f995ce3a21e, type: 3}
+  m_Sprite: {fileID: 1426843329, guid: 740a2808d36470f4f9641e75a1f36217, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -919,7 +919,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -227, y: -152.75}
-  m_SizeDelta: {x: 250, y: 775}
+  m_SizeDelta: {x: 225, y: 775}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1618071805
 MonoBehaviour:
