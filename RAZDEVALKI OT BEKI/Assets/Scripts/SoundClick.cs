@@ -13,8 +13,12 @@ public class SoundClick : MonoBehaviour
         myFx.PlayOneShot(hoverFx);
     }
 
-    public void ClickSound()
+    public void ClickSound(int random)
     {
-        myFx.PlayOneShot(clickFx);
+        random = Random.Range(0, random);
+        if(random == 1)
+        {
+            myFx.PlayOneShot(clickFx);
+        }
     }
 }
