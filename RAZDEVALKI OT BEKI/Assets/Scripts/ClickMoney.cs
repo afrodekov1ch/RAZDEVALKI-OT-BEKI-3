@@ -16,13 +16,13 @@ public class ClickMoney : MonoBehaviour
     void Start()
     {
         score = 0;
-        score = PlayerPrefs.GetInt("Score+", score);
     }
 
 
     void Update()
     {
-        if(score <= tyanScore[1])
+        score = PlayerPrefs.GetInt("Score+", score);
+        if (score <= tyanScore[1])
         {
             tyanScore[0] = tyanScore[1] - score;
         }
