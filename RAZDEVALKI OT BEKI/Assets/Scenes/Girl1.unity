@@ -1896,7 +1896,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -2, y: 100}
+  m_AnchoredPosition: {x: -2, y: 99.99999}
   m_SizeDelta: {x: -13.09, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &688101336
@@ -3169,7 +3169,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 101}
+  m_AnchoredPosition: {x: 0, y: 100.99999}
   m_SizeDelta: {x: -10.74, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1336820499
@@ -3479,6 +3479,8 @@ MonoBehaviour:
   power: 1
   score: 0
   clicText: {fileID: 383353616}
+  effect: {fileID: 7011772502204406210, guid: 79ce0d6b0f88eb54891b1b9d471cf566, type: 3}
+  mainCam: {fileID: 519420031}
 --- !u!4 &1836374857
 Transform:
   m_ObjectHideFlags: 0

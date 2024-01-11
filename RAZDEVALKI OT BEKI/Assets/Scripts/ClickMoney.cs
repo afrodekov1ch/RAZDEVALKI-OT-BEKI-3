@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.PackageManager;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -16,6 +17,9 @@ public class ClickMoney : MonoBehaviour
 
     public int score;
     public Text clicText;
+
+    public GameObject effect;
+    [SerializeField] private Camera mainCam;
     void Awake()
     {
         Debug.Log("НАЧАЛО!");
@@ -56,8 +60,10 @@ public class ClickMoney : MonoBehaviour
     }
     public void clicerScore()
     {
+        Vector3 pos = new Vector3(mainCam.ScreenToWorldPoint(Input.mousePosition).x, mainCam.ScreenToWorldPoint(Input.mousePosition).y, 0);
         score += power;
         PlayerPrefs.SetInt("Score+", score);
+        Instantiate(effect, pos, Quaternion.identity);
     }
     public void PowerUp()
     {
