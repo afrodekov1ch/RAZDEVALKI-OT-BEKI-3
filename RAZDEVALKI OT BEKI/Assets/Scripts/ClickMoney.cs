@@ -63,7 +63,7 @@ public class ClickMoney : MonoBehaviour
     {
         if(score >= 25)
         {
-            score -= 15;
+            score -= 25;
             PlayerPrefs.SetInt("Score+", score);
             power += 1;
             PlayerPrefs.SetInt("power", power);
