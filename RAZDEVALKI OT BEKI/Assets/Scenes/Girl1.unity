@@ -139,7 +139,7 @@ GameObject:
   - component: {fileID: 50199954}
   - component: {fileID: 50199953}
   m_Layer: 5
-  m_Name: click magaz
+  m_Name: ClickMagaz
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -845,7 +845,7 @@ GameObject:
   - component: {fileID: 345861738}
   - component: {fileID: 345861737}
   m_Layer: 5
-  m_Name: auto click magaz
+  m_Name: AutoClickMagaz
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -916,7 +916,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 345861735}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1836374856}
+        m_TargetAssemblyTypeName: ClickMoney, Assembly-CSharp
+        m_MethodName: AutoUp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &345861735
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1260,8 +1272,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "+3 \u0430\u0432\u0442\u043E\u043A\u043B\u0438\u043A\n\u0426\u0415\u041D\u0410:
-    10"
+  m_Text: "+1 \u0430\u0432\u0442\u043E\u043A\u043B\u0438\u043A\n\u0426\u0415\u041D\u0410:
+    100"
 --- !u!222 &392170884
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -19,6 +19,7 @@ public class ClickMoney : MonoBehaviour
     void Awake()
     {
         Debug.Log("НАЧАЛО!");
+        StartCoroutine(AutoCLicking());
     }
 
 
@@ -33,6 +34,7 @@ public class ClickMoney : MonoBehaviour
 
         score = PlayerPrefs.GetInt("Score+");
         power = PlayerPrefs.GetInt("power");
+        auto = PlayerPrefs.GetInt("auto");
 
 
         if (score <= tyanScore[1])
@@ -66,5 +68,22 @@ public class ClickMoney : MonoBehaviour
             power += 1;
             PlayerPrefs.SetInt("power", power);
         }
+    }
+    public void AutoUp()
+    {
+        if (score >= 100)
+        {
+            score -= 100;
+            PlayerPrefs.SetInt("Score+", score);
+            auto += 1;
+            PlayerPrefs.SetInt("auto", auto);
+        }
+    }
+    IEnumerator AutoCLicking()
+    {
+        yield return new WaitForSeconds(1);
+        score += auto;
+        PlayerPrefs.SetInt("Score+", score);
+        StartCoroutine(AutoCLicking());
     }
 }
