@@ -9,9 +9,15 @@ EditorBuildSettings:
     path: Assets/Scenes/MineMenu.unity
     guid: 39c85c27ec26c844e96f40fe1705e2d8
   - enabled: 1
-    path: Assets/Scenes/Girl1.unity
+    path: Assets/Scenes/GirlNum1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Girl2.unity
-    guid: b1acb6b938558434787232a7939a57d1
+    path: Assets/Scenes/GirlNum2.unity
+    guid: a754f3b802d59334aa7fc870c57cd2b4
+  - enabled: 1
+    path: Assets/Scenes/GirlNum3.unity
+    guid: 9e89d89ceaefa0e45a0862fff4f32dd1
+  - enabled: 1
+    path: Assets/Scenes/GirlNum4.unity
+    guid: 6c90fc5ba72be0447b4fc8865a6ab636
   m_configObjects: {}

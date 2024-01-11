@@ -17,4 +17,16 @@ public class LoadScene21 : MonoBehaviour
     {
         SceneManager.LoadScene(2);
     }
+    public void loadSceneFour()
+    {
+        SceneManager.LoadScene(3);
+    }
+    public void loadSceneFive()
+    {
+        SceneManager.LoadScene(4);
+    }
+    public void loadSceneSix()
+    {
+        SceneManager.LoadScene(0);
+    }
 }
