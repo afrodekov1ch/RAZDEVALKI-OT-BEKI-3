@@ -554,7 +554,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myFx: {fileID: 108620560}
   hoverFx: {fileID: 0}
-  clickFx: {fileID: 8300000, guid: 09778009ef2e7e341b3670e2080511f8, type: 3}
+  clickFx: {fileID: 8300000, guid: 26d4e61db87eb91478e2f3882fa798e3, type: 3}
 --- !u!114 &108620559
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1483,7 +1483,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1896,8 +1896,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -2, y: 99.99999}
-  m_SizeDelta: {x: -13.09, y: 0}
+  m_AnchoredPosition: {x: -6.720001, y: 99.99999}
+  m_SizeDelta: {x: 104.98, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &688101336
 MonoBehaviour:
@@ -2512,7 +2512,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myFx: {fileID: 853005293}
   hoverFx: {fileID: 0}
-  clickFx: {fileID: 8300000, guid: 09778009ef2e7e341b3670e2080511f8, type: 3}
+  clickFx: {fileID: 8300000, guid: 26d4e61db87eb91478e2f3882fa798e3, type: 3}
 --- !u!114 &853005296
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3169,8 +3169,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 100.99999}
-  m_SizeDelta: {x: -10.74, y: 0}
+  m_AnchoredPosition: {x: -13.190002, y: 100.99999}
+  m_SizeDelta: {x: 130.78, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1336820499
 MonoBehaviour:
