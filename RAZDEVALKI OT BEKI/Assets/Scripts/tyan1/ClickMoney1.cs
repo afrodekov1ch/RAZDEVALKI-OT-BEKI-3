@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.PackageManager;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -50,13 +49,13 @@ public class ClickMoney1 : MonoBehaviour
         }
 
 
-        tyanScoreTxt[0].text = "Монет: " + tyanScore[0] + "";
+        tyanScoreTxt[0].text = "" + tyanScore[0];
 
         autoText.text = "+" + auto + " автоклик";
 
         powerText.text = "+" + power + " за клик";
 
-        clicText.text = "Монет: " + score;
+        clicText.text = "" + score;
     }
     public void clicerScore()
     {
