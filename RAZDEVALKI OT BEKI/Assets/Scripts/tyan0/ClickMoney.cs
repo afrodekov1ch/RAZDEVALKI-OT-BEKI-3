@@ -40,22 +40,20 @@ public class ClickMoney : MonoBehaviour
         auto = PlayerPrefs.GetInt("auto");
 
 
-        if (score <= tyanScore[1])
+        if (score >= tyanScore[1])
         {
-            tyanScore[0] = tyanScore[1] - score;
+            tyanScoreTxt[0].text = "Открыть";
         }
-        else{
-            tyanScore[0] = 0;
+        else 
+        { 
+            tyanScoreTxt[0].text = "" + tyanScore[1] + "$";
         }
 
+        autoText.text = "+" + auto + "$ автоклик";
 
-        tyanScoreTxt[0].text = "" + tyanScore[0];
+        powerText.text = "+" + power + "$ за клик";
 
-        autoText.text = "+" + auto + " автоклик";
-
-        powerText.text = "+" + power + " за клик";
-
-        clicText.text = "" + score;
+        clicText.text = "" + score +"$";
     }
     public void clicerScore()
     {

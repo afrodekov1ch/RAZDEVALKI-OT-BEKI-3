@@ -1424,7 +1424,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "+1 \u0430\u0432\u0442\u043E\u043A\u043B\u0438\u043A\n\u0426\u0415\u041D\u0410:
-    100"
+    100$"
 --- !u!222 &392170884
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1708,7 +1708,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0423\u041B\u0423\u0427\u0428\u0418\u0422\u042C\n\u0417\u0410 \u0412\u0418\u0414\u0415\u041E"
+  m_Text: "+5$ \u0437\u0430 \u0432\u0438\u0434\u0435\u043E"
 --- !u!222 &563659632
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3699,7 +3699,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0423\u041B\u0423\u0427\u0428\u0418\u0422\u042C\n\u0417\u0410 \u0412\u0418\u0414\u0415\u041E"
+  m_Text: "+5$ \u0437\u0430 \u0432\u0438\u0434\u0435\u043E"
 --- !u!222 &1975673884
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3854,7 +3854,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "+1 \u0437\u0430 \u043A\u043B\u0438\u043A\n\u0426\u0415\u041D\u0410: 25"
+  m_Text: "+1 \u0437\u0430 \u043A\u043B\u0438\u043A\n\u0426\u0415\u041D\u0410: 25$"
 --- !u!222 &2141769179
 CanvasRenderer:
   m_ObjectHideFlags: 0
