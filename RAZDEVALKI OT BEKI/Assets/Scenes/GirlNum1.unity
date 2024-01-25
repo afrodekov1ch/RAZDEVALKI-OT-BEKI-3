@@ -180,7 +180,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myFx: {fileID: 50199955}
-  hoverFx: {fileID: 0}
   clickFx: {fileID: 8300000, guid: b9ec05d644871f34ba4ab69d9bd32ca5, type: 3}
 --- !u!114 &50199954
 MonoBehaviour:
@@ -553,7 +552,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myFx: {fileID: 108620560}
-  hoverFx: {fileID: 0}
   clickFx: {fileID: 8300000, guid: f7e01903a49550443af88ac817af1f82, type: 3}
 --- !u!114 &108620559
 MonoBehaviour:
@@ -807,7 +805,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 5.8955183, y: 4.480438}
+  m_AnchoredPosition: {x: 5.8955183, y: 4.4804077}
   m_SizeDelta: {x: 344.81, y: 94.95001}
   m_Pivot: {x: 0.56350017, y: 1.1390343}
 --- !u!114 &272940786
@@ -1131,7 +1129,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myFx: {fileID: 345861739}
-  hoverFx: {fileID: 0}
   clickFx: {fileID: 8300000, guid: b9ec05d644871f34ba4ab69d9bd32ca5, type: 3}
 --- !u!114 &345861738
 MonoBehaviour:
@@ -2511,7 +2508,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myFx: {fileID: 853005293}
-  hoverFx: {fileID: 0}
   clickFx: {fileID: 8300000, guid: f7e01903a49550443af88ac817af1f82, type: 3}
 --- !u!114 &853005296
 MonoBehaviour:
@@ -3472,11 +3468,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tyanScoreTxt:
   - {fileID: 392744697}
-  tyanScore: 00000000e8030000
+  tyanScore: 00000000d0070000
   autoText: {fileID: 1336820499}
   auto: 0
   powerText: {fileID: 688101336}
   power: 1
+  powerUpText: {fileID: 2141769178}
   score: 0
   clicText: {fileID: 383353616}
   effect: {fileID: 7011772502204406210, guid: 79ce0d6b0f88eb54891b1b9d471cf566, type: 3}
@@ -3843,7 +3840,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 21822605cc7cbfa4da0d3df94e2e5cb0, type: 3}
-    m_FontSize: 45
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0

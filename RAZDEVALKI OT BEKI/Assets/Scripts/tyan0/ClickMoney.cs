@@ -14,6 +14,9 @@ public class ClickMoney : MonoBehaviour
     public Text powerText;
     public int power = 1;
 
+    public Text powerUpText;
+    private int powerUp = 25;
+
     public int score;
     public Text clicText;
 
@@ -28,13 +31,15 @@ public class ClickMoney : MonoBehaviour
 
     void Update()
     {
-        if (power == 0)
+        if (power == 0 || powerUp < 25)
         {
+            powerUp = 25;
+            PlayerPrefs.SetInt("powerUp", powerUp);
             power = 1;
             PlayerPrefs.SetInt("power", power);
         }
 
-
+        powerUp = PlayerPrefs.GetInt("powerUp");
         score = PlayerPrefs.GetInt("Score+");
         power = PlayerPrefs.GetInt("power");
         auto = PlayerPrefs.GetInt("auto");
@@ -53,6 +58,8 @@ public class ClickMoney : MonoBehaviour
 
         powerText.text = "+" + power + "$ за клик";
 
+        powerUpText.text = "+1 за клик ЦЕНА: " + powerUp + "$";
+
         clicText.text = "" + score +"$";
     }
     public void clicerScore()
@@ -64,12 +71,14 @@ public class ClickMoney : MonoBehaviour
     }
     public void PowerUp()
     {
-        if(score >= 25)
+        if(score >= powerUp)
         {
-            score -= 25;
+            score -= powerUp;
             PlayerPrefs.SetInt("Score+", score);
             power += 1;
             PlayerPrefs.SetInt("power", power);
+            powerUp += powerUp;
+            PlayerPrefs.SetInt("powerUp", powerUp);
         }
     }
     public void AutoUp()

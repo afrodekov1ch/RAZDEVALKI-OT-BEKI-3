@@ -13,7 +13,8 @@ public class ClickMoney2 : MonoBehaviour
 
     public Text powerText;
     public int power = 1;
-
+    public Text powerUpText;
+    private int powerUp = 25;
     public int score;
     public Text clicText;
 
@@ -28,8 +29,10 @@ public class ClickMoney2 : MonoBehaviour
 
     void Update()
     {
-        if (power == 0)
+        if (power == 0 || powerUp < 25)
         {
+            powerUp = 25;
+            PlayerPrefs.SetInt("powerUp", powerUp);
             power = 1;
             PlayerPrefs.SetInt("power", power);
         }
@@ -38,7 +41,7 @@ public class ClickMoney2 : MonoBehaviour
         score = PlayerPrefs.GetInt("Score+");
         power = PlayerPrefs.GetInt("power");
         auto = PlayerPrefs.GetInt("auto");
-
+        powerUp = PlayerPrefs.GetInt("powerUp");
 
         if (score >= tyanScore[1])
         {
@@ -49,7 +52,7 @@ public class ClickMoney2 : MonoBehaviour
             tyanScoreTxt[0].text = "" + tyanScore[1] + "$";
         }
 
-
+        powerUpText.text = "+1 за клик ЦЕНА: " + powerUp + "$";
         autoText.text = "+" + auto + "$ автоклик";
 
         powerText.text = "+" + power + "$ за клик";
@@ -65,12 +68,14 @@ public class ClickMoney2 : MonoBehaviour
     }
     public void PowerUp()
     {
-        if(score >= 25)
+        if (score >= powerUp)
         {
-            score -= 25;
+            score -= powerUp;
             PlayerPrefs.SetInt("Score+", score);
             power += 1;
             PlayerPrefs.SetInt("power", power);
+            powerUp += powerUp;
+            PlayerPrefs.SetInt("powerUp", powerUp);
         }
     }
     public void AutoUp()

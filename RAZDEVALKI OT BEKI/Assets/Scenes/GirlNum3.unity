@@ -180,7 +180,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myFx: {fileID: 50199955}
-  hoverFx: {fileID: 0}
   clickFx: {fileID: 8300000, guid: b9ec05d644871f34ba4ab69d9bd32ca5, type: 3}
 --- !u!114 &50199954
 MonoBehaviour:
@@ -553,7 +552,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myFx: {fileID: 108620560}
-  hoverFx: {fileID: 0}
   clickFx: {fileID: 8300000, guid: 3abfc42dc75736948a95287304336c7b, type: 3}
 --- !u!114 &108620559
 MonoBehaviour:
@@ -1131,7 +1129,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myFx: {fileID: 345861739}
-  hoverFx: {fileID: 0}
   clickFx: {fileID: 8300000, guid: b9ec05d644871f34ba4ab69d9bd32ca5, type: 3}
 --- !u!114 &345861738
 MonoBehaviour:
@@ -2511,8 +2508,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myFx: {fileID: 853005293}
-  hoverFx: {fileID: 0}
-  clickFx: {fileID: 8300000, guid: 3abfc42dc75736948a95287304336c7b, type: 3}
+  clickFx: {fileID: 8300000, guid: fdfd2bccb10edd5439047063b13aaeaf, type: 3}
 --- !u!114 &853005296
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3487,11 +3483,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tyanScoreTxt:
   - {fileID: 392744697}
-  tyanScore: 00000000ac0d0000
+  tyanScore: 0000000064190000
   autoText: {fileID: 1336820499}
   auto: 0
   powerText: {fileID: 688101336}
   power: 1
+  powerUpText: {fileID: 2141769178}
   score: 0
   clicText: {fileID: 383353616}
   effect: {fileID: 7011772502204406210, guid: 79ce0d6b0f88eb54891b1b9d471cf566, type: 3}
@@ -3843,7 +3840,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 21822605cc7cbfa4da0d3df94e2e5cb0, type: 3}
-    m_FontSize: 45
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0

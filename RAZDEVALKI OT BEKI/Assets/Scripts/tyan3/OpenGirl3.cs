@@ -13,10 +13,10 @@ public class OpenGirl3 : MonoBehaviour
     }
     public void Open(int girl)
     {
-        if(score >= 5000)
+        if(score >= 8000)
         {
             Debug.LogWarning("Открыт");
-            score -= 5000;
+            score -= 8000;
             obj[0].SetActive(true);
             PlayerPrefs.SetInt("girl3", 1);
             PlayerPrefs.SetInt("Score+", score);

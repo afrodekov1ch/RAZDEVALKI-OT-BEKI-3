@@ -27,6 +27,11 @@ public class RewardVid : MonoBehaviour
 
     void Rewarded(int id)
     {
+        
+    }
+    void ExampleOpenRewardAd(int id)
+    {
+        YandexGame.RewVideoShow(id);
         if (id == 0)
         {
             power += 5;
@@ -37,9 +42,5 @@ public class RewardVid : MonoBehaviour
             auto += 5;
             PlayerPrefs.SetInt("auto", auto);
         }
-    }
-    void ExampleOpenRewardAd(int id)
-    {
-        YandexGame.RewVideoShow(id);
     }
 }
