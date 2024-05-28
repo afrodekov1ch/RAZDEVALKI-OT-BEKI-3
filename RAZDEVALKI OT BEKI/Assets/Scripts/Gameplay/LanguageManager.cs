@@ -34,17 +34,6 @@ public class LanguageManager : MonoBehaviour
         englishTexts["pause"] = "Pause";
         russianTexts["shop"] = "Магазин";
         englishTexts["shop"] = "Shop";
-        russianTexts["click"] = "+5 за клик";
-        englishTexts["click"] = "+5 for the click";
-        russianTexts["buyclick"] = "+1 за клик ЦЕНА: 25$";
-        englishTexts["buyclick"] = "+1 for the click PRICE: 25$";
-        russianTexts["autoclick"] = "+0 автоклик";
-        englishTexts["autoclick"] = "+0 autoclick";
-        russianTexts["buyautoclick"] = "+1 автоклик ЦЕНА: 100$";
-        englishTexts["buyautoclick"] = "+1 autoclick PRICE: 100$";
-        russianTexts["videoup"] = "+5$ за видео";
-        englishTexts["videoup"] = "+5$ for the video";
-        // Добавьте больше пар ключ-значение для других текстов
     }
 
     void LoadLanguageSetting()
@@ -81,7 +70,7 @@ public class LanguageManager : MonoBehaviour
 
     public string GetTranslation(string key)
     {
-        Debug.Log("Translating key: " + key); // Отладочное сообщение
+        Debug.Log("Translating key: " + key);
         if (isRussian)
         {
             if (russianTexts.ContainsKey(key))
@@ -93,7 +82,7 @@ public class LanguageManager : MonoBehaviour
                 return englishTexts[key];
         }
         Debug.LogWarning("Translation not found for key: " + key);
-        return key; // Вернуть ключ, если перевод не найден
+        return key;
     }
 
     void OnDestroy()

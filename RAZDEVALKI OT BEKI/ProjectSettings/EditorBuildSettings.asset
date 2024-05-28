@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MineMenu.unity
     guid: 39c85c27ec26c844e96f40fe1705e2d8
   - enabled: 1
+    path: Assets/Scenes/Girl 1.unity
+    guid: 88bfb42f49ec4954caea16601b5b505b
+  - enabled: 1
     path: Assets/Scenes/GirlNum1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
