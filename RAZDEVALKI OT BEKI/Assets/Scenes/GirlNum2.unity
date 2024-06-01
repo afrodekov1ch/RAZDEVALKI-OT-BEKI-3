@@ -3387,11 +3387,11 @@ RectTransform:
   - {fileID: 108620554}
   - {fileID: 345861733}
   - {fileID: 50199952}
+  - {fileID: 272940785}
+  - {fileID: 1095360147}
   - {fileID: 676963283}
   - {fileID: 1041589685}
   - {fileID: 1904541895}
-  - {fileID: 272940785}
-  - {fileID: 1095360147}
   m_Father: {fileID: 2045680205}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
