@@ -34,6 +34,16 @@ public class LanguageManager : MonoBehaviour
         englishTexts["pause"] = "Pause";
         russianTexts["shop"] = "Магазин";
         englishTexts["shop"] = "Shop";
+        russianTexts["videoup"] = "+5 за видео";
+        englishTexts["videoup"] = "+5 for video";
+        russianTexts["forclick"] = "+5 за клик";
+        englishTexts["forclick"] = "+5 for click";
+        russianTexts["buyclick"] = "+1 за клик, ЦЕНА: 25";
+        englishTexts["buyclick"] = "+1 for click, PRICE: 25";
+        russianTexts["autoclick"] = "+3 автоклик";
+        englishTexts["autoclick"] = "+3 autoclick";
+        russianTexts["buyautoclick"] = "+1 автоклик, ЦЕНА: 100";
+        englishTexts["buyautoclick"] = "+1 autoclick, PRICE: 100";
     }
 
     void LoadLanguageSetting()
